@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+.red{
+    position: relative;
+    text-align: center;
+    top: 10rem;
+    left: 40rem;
+    background-color: red;
+    height: 10rem;
+    width: 50rem;
+}
+.red h1{
+    color: rgb(85, 7, 149);
+    padding: 4rem;
+}
+
+.red .blue{
+    position: absolute;
+    background-color: blue;
+    height: 10rem;
+    width: 50rem;
+    top: 10rem;
+    /* left: 40rem; */
+}
+ .red .blue .white{
+    position: absolute;
+    text-align: center;
+    border-radius: 10rem;
+    background-color: white;
+    height: 10rem;
+    width: 10rem;
+    left: 20rem;
+}
+.red .green{
+    position: absolute;
+    background-color: forestgreen;
+    height: 10rem;
+    width: 50rem;
+    top: 20rem;
+}
